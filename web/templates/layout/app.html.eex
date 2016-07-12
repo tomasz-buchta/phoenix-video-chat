@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
     <meta name="author" content="">
+    <link href="http://vjs.zencdn.net/5.8.7/video-js.css" rel="stylesheet">
 
     <title>Hello PhoenixVideoStream!</title>
     <link rel="stylesheet" href="<%= static_path(@conn, "/css/app.css") %>">
@@ -30,6 +31,7 @@
       </main>
 
     </div> <!-- /container -->
+    <script src="http://vjs.zencdn.net/5.8.7/video.js"></script>
     <script src="<%= static_path(@conn, "/js/app.js") %>"></script>
   </body>
 </html>
